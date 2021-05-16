@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	const int size = 5;
+	string names[size] = { "hussein","ali","ribih","abdalzahra" };
+	for (int i = 0; i <= size; i++)
+	{
+		cout << names[i] << "\t" << endl;
+    }
+return 0;
+}
